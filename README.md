@@ -399,40 +399,8 @@ npm run start:dev
 
 ---
 
-# 🔄 8. Quy trình làm việc nhóm
 
-Khi bắt đầu làm việc:
-
-```bash
-git pull
-```
-
-Tạo branch riêng cho công việc:
-
-```bash
-git checkout -b feature/<feature-name>
-```
-
-Ví dụ:
-
-```bash
-git checkout -b feature/login
-```
-
-Sau khi hoàn thành:
-
-```bash
-git status
-git add .
-git commit -m "feat: add login"
-git push origin feature/login
-```
-
-Sau đó tạo **Pull Request** để review và merge vào branch chính.
-
----
-
-# 📝 9. Quy tắc Commit
+# 📝 8. Quy tắc Commit
 
 Project sử dụng **Conventional Commits**.
 
@@ -468,7 +436,7 @@ Commit message nên:
 
 ---
 
-# 🔒 10. Bảo mật
+# 🔒 9. Bảo mật
 
 Không commit các thông tin nhạy cảm lên Git.
 
@@ -510,7 +478,7 @@ JWT_EXPIRES_IN=
 
 ---
 
-# 🚫 11. Các file không được commit
+# 🚫 10. Các file không được commit
 
 Không commit các file hoặc thư mục:
 
@@ -545,7 +513,7 @@ pnpm-lock.yaml
 
 ---
 
-# 👥 12. Setup project cho thành viên mới
+# 👥 11. Setup project cho thành viên mới
 
 Thành viên mới có thể setup project theo thứ tự:
 
@@ -586,7 +554,7 @@ pnpm dev
 
 ---
 
-# 🧹 13. Một số lưu ý khi phát triển
+# 🧹 12. Một số lưu ý khi phát triển
 
 - Không code trực tiếp trên `main`.
 - Commit thường xuyên và rõ ràng.
